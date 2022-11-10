@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VottingAppFrontEnd</title>
+    <link rel="stylesheet" href="Styles/common.css">
+    <link rel="stylesheet" href="Styles/homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="welcome-page">
+        <div class="empty-box">
+
+            <div class="company-Name">
+                <h1>WeeVote</h1>
+            </div>
+            <div class="logo-container">
+                <img src="Images/votelogo.jpg" alt="Company-logo">
+            </div>
+        </div>
+        <header class="header-container">
+
+            <div class="nav-page">
+                <nav class="nav-link">
+                    <ul id="category-list" class="list-page">
+                        <li><a href="index.html" class="home-page">Homepage</a></li>
+                        <li><a href="About.html" class="about-page">About</a></li>
+                        <li><a href="#" class="Contact-page">ContactUs</a></li>
+                        <li><a href="Student/StudentForm.html" class="login-page">Student</a></li>
+                        <li><a href="Admin/AdminForm.html" class="Register-as-an-Admin">Admin SignUp</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <section id="text-container-text" class="text-container">
+
+            <div class="text-image-container">
+                <img src="https://source.unsplash.com/random" alt="Voting">
+            </div>
+
+            <div id="text-content-word" class="text-content">
+                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, repellendus?</h1>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus eveniet cum et similique illum
+                    voluptatibus laborum odio dolor! Eveniet, at.</p>
+            </div>
+        </section>
+
+        <div class="container-contact2">
+            <div class="wrap-contact2">
+                <form class="contact2-form validate-form">
+                    <span class="contact2-form-title">
+                        ContactUs
+                    </span>
+                    <div class="wrap-input2 validate-input" data-validate="Name is required">
+                        <input class="input2" type="text" name="name">
+                        <span class="focus-input2" data-placeholder="NAME"></span>
+                    </div>
+                    <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input2" type="text" name="email">
+                        <span class="focus-input2" data-placeholder="EMAIL"></span>
+                    </div>
+                    <div class="wrap-input2 validate-input" data-validate="Message is required">
+                        <textarea class="input2" name="message"></textarea>
+                        <span class="focus-input2" data-placeholder="MESSAGE"></span>
+                    </div>
+                    <div class="container-contact2-form-btn">
+                        <div class="wrap-contact2-form-btn">
+                            <div class="contact2-form-bgbtn"></div>
+                            <button class="contact2-form-btn">
+                                Send Your Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <footer class="footer-section">
+
+                <section class="footer-section-page">
+
+                    <div class="footer-feature-image">
+                        <img src="Images/feature.png" alt="">
+                    </div>
+                    <div class="footer-container-text">
+                        <h1>Our Features</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </section>
+
+                <section class="footer-section-Platform">
+
+                    <div class="footer-Platform-img">
+                        <img src="Images/secured.jpg" alt="Secured">
+                    </div>
+                    <div class="footer-container-text footer-container-img">
+                        <h2>Secured Platform</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </section>
+
+                <section class="footer-section-Result">
+
+                    <div class="footer-Result-img">
+                        <img src="Images/realTimechart.png" alt="Result">
+                    </div>
+                    <div class="footer-container-text footer-container-img">
+                        <h2>RealTime Result</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </section>
+            </footer>
+        </div>
+
+
+        <script src="Scripts/Admindashboard.js"></script>
+        <!-- <script src="Scripts/script.js"></script> -->
+</body>
+
+</html>

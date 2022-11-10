@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest</title>
+    <script src="https://kit.fontawesome.com/f33684e5cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/common.css">
+    <link rel="stylesheet" href="Styles/Admindashboard.css">
+    <link rel="stylesheet" href="Styles/Election.css">
+</head>
+
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <!-- <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="fa fa-accusoft"><span>Admin</span> </span></h2>
+
+            <div class="sidebar-menu">
+                <ul id="sidebarmenu">
+                    <li>
+                        <a href="/Admindashboard.html"><span class="fa fa-igloo"></span></span>
+                            <span>Dashboard</span></a>
+                    </li>
+                    <li>
+                        <a href="AdminContestant.html"><span class="fa fa-users"></span></span>
+                            <span>Contestant</span></a>
+                    </li>
+                    <li>
+                        <a href="AdminVoter.html" ><span class="fa fa-clipboard-list"></span></span>
+                            <span>Voters</span></a>
+                    </li>
+                    <li>
+                        <a href="#" ><span class="fa fa-shopping-bag"></span></>
+                            <span>Admin</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-receipt"></span></span>
+                            <span>Election</span></a>
+                    </li>
+                    <li>
+                        <a href="/AdminAccount.html" ><span class="fa fa-clipboard-list"></span></span>
+                            <span>Account</span></a>
+                    </li>
+                    <li>
+                        <a href="index.html" ><span class="fa fa-power-off"></span></span>
+                            <span>LogOut</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div> -->
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="fa-solid fa-bars"></span>
+                </label>
+                Dashboard
+            </h2>
+            <div class="search-wrapper">
+                <span class="fa fa-search"></span>
+                <input type="search" placeholder="search here" />
+            </div>
+            <div class="user-wrapper">
+                <img src="Images/votelogo.jpg" width="40px" height="40px" alt="">
+                <h4>Admin</h4>
+                <!-- <small>Super Admin</small> -->
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>Admin</h1>
+                        <!-- <span>Admin</span> -->
+                    </div>
+
+                    <div>
+                        <span class="fa fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>Description</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nam!</p>
+                    </div>
+
+                    <div>
+                        <span class="fa fa-audio-description"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>Position</h1>
+                        <span>Admin</span>
+                    </div>
+
+                    <div>
+                        <span class="fa fa-tags"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>Active</h1>
+                    </div>
+
+                    <div>
+                        <span class="fa fa-thumbs-up"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="main-block">
+                    <h1>Contest</h1>
+                    <form id="form" method="get">
+                      <div class="info">
+                        <input type="text" id="fullnamens" name="txt" placeholder="FullName" required/>
+                        <input type="text" id="GPn" name="txt" placeholder="GP" required/>
+                        <input type="text" id="departmentn" name="txt" placeholder="Department" required/>
+                        <select id="leveln">
+                            <option value="" disabled selected>Level</option>
+                            <option value="Male">100</option>
+                            <option value="FeMale">200</option>
+                            <option value="FeMale">300</option>
+                            <option value="FeMale">400</option>
+                            <option value="FeMale">500</option>
+                          </select>
+                        <textarea class="input2" name="message" id="message" placeholder="Tell us a little About your self"></textarea>
+                      <button onclick="Studentcontest()" class="button">Submit</button>
+                    </form>
+                  </div>
+            </div>
+        </main>
+    </div>
+    <script src="Scripts/Election.js"></script>
+    <script src="Scripts/Admindashboard.js"></script>
+    <script src="Scripts/template.js"></script>
+    <script src="Scripts/Contest.js"></script>
+</body>
+
+</html>
